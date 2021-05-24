@@ -1,0 +1,110 @@
+@tailwind base;
+
+@layer base {
+  h1 {
+    @apply text-4xl font-semibold mb-6 text-white;
+  }
+  h2 {
+    @apply text-3xl text-white;
+  }
+  h3 {
+    @apply text-2xl font-semibold mb-4 leading-7 text-white !important;
+  }
+  p {
+    @apply text-lg mb-6;
+  }
+  code {
+    /*@apply p-5 bg-trueGray-800 block rounded-md overflow-x-auto !important;*/
+  }
+}
+
+@tailwind components;
+@tailwind utilities;
+
+.utterances {
+  margin: -16px 0;
+  padding: 0 -4px;
+  max-width: 56rem;
+}
+
+.inline-code-wrapper {
+  background-color: #262626 !important;
+  padding: 1px 2px 1px 2px;
+  border-radius: 0.125rem;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+.TOC::-webkit-scrollbar {
+  width: 3px !important;
+}
+
+.grvsc-container::-webkit-scrollbar {
+  height: 8px !important;
+}
+
+::-webkit-scrollbar-track {
+  background: #262626;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@media (max-width: 768px) {
+  .TOC {
+    max-height: none !important;
+  }
+}
+
+@media (max-width: 1536px) {
+  .TOC {
+    max-height: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+  .grvsc-container {
+    margin-top: 32px !important;
+    margin-bottom: 32px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .grvsc-container {
+    margin-top: 24px !important;
+    margin-bottom: 24px !important;
+  }
+}
+
+p {
+  color: #edf2f7 !important;
+}
+
+p > a {
+  color: #f97316 !important;
+  text-decoration: underline !important;
+}
+
+#body_content > ul > li > a {
+  color: #f97316 !important;
+  text-decoration: underline !important;
+  word-wrap: break-word !important;
+}
+
+#body_content > ul {
+  list-style-type: disc !important;
+  list-style-position: inside !important;
+  padding-left: 16px !important;
+  margin-bottom: 24px !important;
+  color: #edf2f7;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
