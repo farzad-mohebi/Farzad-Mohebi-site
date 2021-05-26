@@ -21,7 +21,7 @@ function Footer(props) {
                     data-sal-duration="1000"
                   >
                     <div className="w-full md:w-2/3">
-                      Starting somthing new? <br />{" "}
+                      Starting something new? <br />{" "}
                       <span className="text-orange-500">
                         Let's get in touch!
                       </span>
@@ -30,7 +30,7 @@ function Footer(props) {
                 ) : (
                   <div className="w-full text-3xl md:text-4xl lg:text-6xl font-bold">
                     <div className="w-full md:w-2/3">
-                      Starting somthing new? <br />{" "}
+                      Starting something new? <br />{" "}
                       <span className="text-orange-500">
                         Let's get in touch!
                       </span>
@@ -46,15 +46,11 @@ function Footer(props) {
                       data-sal-easing="ease"
                       data-sal-duration="1000"
                     >
-                      I am currently involved with freelance web development for
-                      small to medium projects and am always interested in a
-                      challenge. Let's connect!
+                      I am interested in challenges. Let's connect!
                     </div>
                   ) : (
                     <div className="w-full md:w-2/3 text-gray-400 text-xs md:text-base hidden md:block">
-                      I am currently involved with freelance web development for
-                      small to medium projects and am always interested in a
-                      challenge. Let's connect!
+                      I am interested in challenges. Let's connect!
                     </div>
                   )}
                   <div className="w-44 pt-6 md:pt-0">
@@ -140,33 +136,33 @@ function Footer(props) {
                 {!props.isPage ? (
                   <ScrollLink
                     activeClass="active"
-                    to="projects"
+                    to="work"
                     spy={true}
                     smooth={true}
                     duration={500}
                     className={linkStyle}
                   >
-                    Projects
+                    Work
                   </ScrollLink>
                 ) : (
-                  <Link to="/#projects" className={linkStyle}>
-                    Projects
+                  <Link to="/#work" className={linkStyle}>
+                    Work
                   </Link>
                 )}
                 {!props.isPage ? (
                   <ScrollLink
                     activeClass="active"
-                    to="blog"
+                    to="studies"
                     spy={true}
                     smooth={true}
                     duration={500}
                     className={linkStyle}
                   >
-                    Blog
+                    Studies
                   </ScrollLink>
                 ) : (
-                  <Link to="/blog" className={linkStyle}>
-                    Blog
+                  <Link to="/#studies" className={linkStyle}>
+                    Studies
                   </Link>
                 )}
                 <div className="flex flex-row space-x-8 items-center justify-between">
@@ -187,7 +183,7 @@ function Footer(props) {
                       <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
                     </svg>
                   </a>
-                  <a href="mailto:me@farzad.fi">
+                  <a href="mailto:frzdmhb@gmail.com">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -221,7 +217,7 @@ function Footer(props) {
               </div>
               <hr className="border-orange-500" />
               <div className="w-full text-center text-sm md:text-base my-6 md:my-12 text-trueGray-400">
-                copyright Farzaf.fi 2021
+                Farzad.fi Personal website of Farzad Mohebi 2021
               </div>
             </div>
           </div>

@@ -38,12 +38,12 @@ function Menu({ toggle, isOpen }) {
           </Link>
           {/* <Link to="/#projects" className="pl-5 md:pl-14 hover:underline cursor-pointer">Projects</Link> */}
           <DropdownPage />
-          <Link
+          {/*           <Link
             to="/blog"
             className="pl-10 2xl:pl-14 hover:underline cursor-pointer"
           >
             Blog
-          </Link>
+          </Link> */}
           <Link
             to="/contact"
             className="pl-10 2xl:pl-14 hover:underline cursor-pointer"

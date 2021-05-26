@@ -62,21 +62,21 @@ function Intro() {
             ) : (
               <ScrollLink
                 activeClass="active"
-                to="projects"
+                to="work"
                 spy={true}
                 smooth={true}
                 duration={500}
                 className="pl-5 md:pl-14 hover:underline cursor-pointer"
               >
-                Projects
+                Work
               </ScrollLink>
             )}
-            <Link
+            {/*             <Link
               to="/blog"
               className="pl-5 md:pl-14 hover:underline cursor-pointer"
             >
               Blog
-            </Link>
+            </Link> */}
             <Link
               to="/contact"
               className="pl-5 md:pl-14 hover:underline cursor-pointer"
@@ -132,7 +132,7 @@ function Intro() {
             </div>
             <div className="pl-5 text-white font-bold">.</div>
             <div className="pl-5 flex flex-row text-2xl">
-              <a href="mailto:me@farzad.fi">
+              <a href="mailto:frzdmhb@gmail.com">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="32"
@@ -147,7 +147,7 @@ function Intro() {
               </a>
               <a
                 className="pl-3 text-gray-100 text-opacity-80 hover:underline hidden md:block"
-                href="mailto:me@farzad.fi"
+                href="mailto:frzdmhb@gmail.com"
               >
                 Email
               </a>
