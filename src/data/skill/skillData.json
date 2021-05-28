@@ -1,0 +1,35 @@
+[
+  {
+    "index": "1",
+    "set": "Language Skills",
+    "item": [
+      {
+        "name": "English",
+        "rate": "100%",
+        "tag": "Fluent"
+      }
+    ]
+  },
+  {
+    "index": "2",
+    "set": "Tech Skills",
+    "item": [
+      {
+        "name": "English",
+        "rate": "100%",
+        "tag": "Fluent"
+      }
+    ]
+  },
+  {
+    "index": "3",
+    "set": "Soft Skills",
+    "item": [
+      {
+        "name": "English",
+        "rate": "100%",
+        "tag": "Fluent"
+      }
+    ]
+  }
+]

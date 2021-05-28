@@ -4,6 +4,7 @@ import Intro from "../components/Intro"
 import Aboutme from "../components/AboutMe"
 import Projects from "../components/Projects"
 import Work from "../components/Work"
+import Skills from "../components/Skills"
 /* import Blog from "../components/Blog" */
 import Footer from "../components/Footer"
 
@@ -20,6 +21,7 @@ function IndexPage() {
       <Aboutme body={sectionBody} />
       <Projects />
       <Work />
+      <Skills />
       {/*       <Blog /> */}
       <Footer />
     </div>

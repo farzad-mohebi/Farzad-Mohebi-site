@@ -91,7 +91,7 @@ function Intro() {
                 <span className="font-bold text-orange-500">
                   software engineer
                 </span>{" "}
-                &#38; a masters degree student in communication engineering at{" "}
+                &#38; a masters degree student in communications engineering at{" "}
                 <a
                   className="font-bold text-orange-500"
                   href="https://aalto.fi"
