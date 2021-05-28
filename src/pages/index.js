@@ -21,7 +21,7 @@ function IndexPage() {
       <Aboutme body={sectionBody} />
       <Projects />
       <Work />
-      <Skills />
+
       {/*       <Blog /> */}
       <Footer />
     </div>
